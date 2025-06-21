@@ -12,7 +12,8 @@ Before running the code, make sure to set up the environment by following these 
 - [Additional AlphaPose Setup Instructions](https://blog.csdn.net/weixin_44848751/article/details/132140935)
 
 Ensure that all necessary libraries are installed and that the model weights are correctly placed in their respective directories as detailed in the GitHub repositories.
-**Note:** Use the code sent to you as it has been significantly modified from the original versions available on GitHub. This ensures compatibility and correct functioning of the integrated system.
+
+**Note:** Use the code from this repo as it has been significantly modified from the original versions available on GitHub. This ensures compatibility and correct functioning of the integrated system. And check the original MotionBERT and AlphaPose Repo for folder structures and placing the weights and checkpoints
 
 ## Project Structure
 
