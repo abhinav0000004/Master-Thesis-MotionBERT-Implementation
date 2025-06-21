@@ -51,4 +51,13 @@ Ensure that all necessary libraries are installed and that the model weights are
    - Ground_Truth_Angles/MotionBERT_Angles: Absolute Angles.
      
 6. **Evaluate MPJAE**:
-   - Run `Calculate_MPJAE.py` to calculate the Mean Per Joint Angle Error (MPJAE) between ground truth and MotionBERT's predicted results. You can choose whether you want to use processed angles or absolute angles and modify the code accordingly (For thesis I used processed angles). The output will be stored in the Data folder in Excel format. 
+   - Run `Calculate_MPJAE.py` to calculate the Mean Per Joint Angle Error (MPJAE) between ground truth and MotionBERT's predicted results. You can choose whether you want to use processed angles or absolute angles and modify the code accordingly (For thesis I used processed angles). The output will be stored in the Data folder in Excel format.
+
+
+
+   This project uses code and models from the following repositories:
+
+- [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) — Licensed under [Apache License 2.0](https://github.com/MVIG-SJTU/AlphaPose/blob/master/LICENSE).
+- [MotionBERT](https://github.com/Walter0807/MotionBERT) — Licensed under [CC BY-NC-SA 4.0](https://github.com/Walter0807/MotionBERT/blob/main/LICENSE).
+
+All rights and acknowledgments belong to the respective authors.
